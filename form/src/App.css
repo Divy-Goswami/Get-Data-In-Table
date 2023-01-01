@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#FFFAFA;
+}
+#subbtn{
+  padding: 5px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  color: #347be6;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-right: 5px;
+}
+
+#subbtn:hover{
+ color: black;
+ border-color: #347be6;
+}
+.secondiv{
+   display: grid;
+   place-items: center;
+   margin-bottom: 50px;
+}
+
+#resetbtn{
+  padding: 5px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  color: #347be6;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#resetbtn:hover{
+ color: black;
+ border-color: #347be6;
+}
+#form{
+  box-shadow: 1px 0px 6px 0px rgb(45 44 44);
+  border-radius: 10px;
+
+}
+.form_control label{
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.form_control{
+  padding: 8px;
+  margin-left: 5px;
+  margin-bottom: 2px;
+  position: relative;
+  height: 100px;
+
+
+}
+.form_controlradio{
+  margin-bottom: 20px;
+  position: relative;
+}
+.genlabel{
+  display:block;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+.form_control.success input{
+  border-color: #2ecc71;
+}
+.form_control.error input{
+  border-color: #e74c3c;
+}
+.form_control input{
+  width: 100%;
+  border:  1px solid #f0f0f0;
+  border-radius: 5px;
+  display: block;
+  font-size: 14px;
+  padding: 12px;
+}
+.form_control input:focus{
+  outline: 0;
+  border-color: #777;
+}
+.genderch{
+  margin-left:25px;
+}
+.form_control i{
+  position: absolute;
+  right: 20px;
+  top:45px;
+  visibility: hidden;
+  
+}
+.form_controlradio i{
+  visibility: hidden;
+}
+.form_controlradio.error i.bi-exclamation-circle{
+  color: #e74c3c;
+  visibility: visible;
+}
+.form_controlradio.success i.bi-check2-circle{
+  color: #2ecc71;
+  visibility: visible;
+}
+
+
+
+.form_control.error #selectsmall{
+    color:  #e74c3c;
+    position: absolute;
+    top: 10px;
+    left:190px;
+}
+.form_control.error #errorbtn{
+  position: absolute;
+  top: 10px;
+  left: 170px;
+}
+
+.form_control.success #checkbtn{
+  position: absolute;
+  top: 10px;
+  left: 170px;
+}
+.childiv{
+  visibility: hidden;
+}
+.childdiv.success{
+  visibility: visible;
+}
+
+.form_control.success i.bi-check2-circle{
+  color: #2ecc71;
+  visibility: visible;
+}
+.form_control.error i.bi-exclamation-circle{
+  color: #e74c3c;
+  visibility: visible;
+}
+
+table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #347be6; 
+}
+th{
+  text-align: center;
+}
+td{
+  padding: 20px;
+}
+.opbtn{
+  display: flex;
+  flex-direction: row;
+}
+
+
